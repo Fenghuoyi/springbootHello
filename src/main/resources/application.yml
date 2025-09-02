@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: springBootHello
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: 123321
+    database: 0
+server:
+  port: 8086
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    virtual-host: /
+    username: guest
+    password: guest
