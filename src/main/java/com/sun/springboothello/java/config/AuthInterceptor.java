@@ -36,7 +36,7 @@ public class AuthInterceptor implements HandlerInterceptor {
 
         // 公开路径
         if (isPublicPath(requestUri)) {
-            System.out.println("111");
+            System.out.println("222");
             return true;
         }
 
